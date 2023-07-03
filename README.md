@@ -6,7 +6,7 @@ A File transfer solution that implements a custom transport protocol in order to
 
 ## Pictures
 <div align="center">
-  <img src="images/results.png" width="666" height="383">
+  <img src="images/results.png">
 </div>
 <p align="center">
   PacketFlow Tests for different links and configurations
