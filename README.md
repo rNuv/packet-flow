@@ -6,13 +6,13 @@ A File transfer solution that implements a custom transport protocol in order to
 
 ## Pictures
 <div align="center">
-  <img src="images/results.png">
+  <img src="images/results.png" width="500" height="383">
 </div>
 <p align="center">
   PacketFlow Tests for different links and configurations
 </p>
 <div align="center">
-  <img src="images/network.png" width="500" height="400">
+  <img src="images/network.png" width="666" height="383">
 </div>
 <p align="center">
   Network Model
