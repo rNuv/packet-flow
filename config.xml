@@ -1,0 +1,38 @@
+<config>
+
+<number_of_pairs>2</number_of_pairs>
+
+<!-- one-way propagation delay in ms, this delay should be larger than 1 -->
+<propagation_delay>20</propagation_delay>
+
+<!-- bandwidth in kb/s, should be smaller than 20000 due to system limitations -->
+<bandwidth>10000</bandwidth>
+
+<!-- buffer size in number of packets, delay bandwidth product is recommended, RTT * bandwidth -->
+<!-- buffer_q_size should be large enough (>10) due to CPU scheduling of buffer push/pop thread -->
+<buffer_size>50</buffer_size>
+
+<pairs>
+  <pair>
+   <sender>
+     <src>localhost:10000</src>
+     <dst>localhost:50001</dst>
+   </sender>
+   <receiver>
+     <src>localhost:20000</src>
+     <dst>localhost:50002</dst>
+   </receiver>
+  </pair>
+  <pair>
+   <sender>
+     <src>localhost:30000</src>
+     <dst>localhost:50003</dst>
+   </sender>
+   <receiver>
+     <src>localhost:40000</src>
+     <dst>localhost:50004</dst>
+   </receiver>
+  </pair>
+</pairs>
+
+</config>

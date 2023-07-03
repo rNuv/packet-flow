@@ -1,0 +1,29 @@
+<config>
+  <number_of_pairs>2</number_of_pairs>
+  <propagation_delay>%{propagation_delay}%</propagation_delay>
+  <bandwidth>%{bandwidth}%</bandwidth>
+  <buffer_size>%{buffer_size}%</buffer_size>
+  <pairs>
+    <pair>
+    <sender>
+      <src>localhost:10000</src>
+      <dst>localhost:50001</dst>
+    </sender>
+    <receiver>
+      <src>localhost:20000</src>
+      <dst>localhost:50002</dst>
+    </receiver>
+    </pair>
+    <pair>
+    <sender>
+      <src>localhost:30000</src>
+      <dst>localhost:50003</dst>
+    </sender>
+    <receiver>
+      <src>localhost:40000</src>
+      <dst>localhost:50004</dst>
+    </receiver>
+    </pair>
+  </pairs>
+</config>
+
