@@ -12,7 +12,7 @@ A File transfer solution that implements a custom transport protocol in order to
   PacketFlow Tests for different links and configurations
 </p>
 <div align="center">
-  <img src="images/network.png" width="666" height="383">
+  <img src="images/network.png" width="500" height="400">
 </div>
 <p align="center">
   Network Model
